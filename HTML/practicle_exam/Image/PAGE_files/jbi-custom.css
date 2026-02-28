@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td,
+table th {
+    border: none;
+    padding: 8px;
+}
+
+.grid-product__tag--retired{
+  background-color:var(--colorRetiredTag);
+  color:var(--colorRetiredTagText);
+}
+
+
+.product-retired__model {
+    background-color:var(--colorRetiredTag);
+    color:var(--colorRetiredTagText);
+    padding: 8px !important;
+}

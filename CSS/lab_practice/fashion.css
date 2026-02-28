@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(232, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.box{
+    width: 250px;
+    /* height: 650px; */
+    flex-direction: column;
+    display: flex;
+}
+.part1{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15PX;
+    box-shadow: 0PX 0PX 10PX BLACK;
+}
+.part2{
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15PX;
+    box-shadow: 0PX 0PX 10PX BLACK;
+    display: flex;
+    /* gap: 50px; */
+    
+
+}
+.img{
+    
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 15px;
+    
+    
+}
+#i1{
+    background-image: url(IMAGES/DRESS.jpeg);
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+}
+.offer p,h4{
+    margin: 15px 10px;
+    color: white;
+}
+.offer p{
+    background-color: red;
+    width: 40px;
+    height: 20px;
+    /* padding: 5px; */
+    
+    text-align: center;
+    border-radius: 5px;
+}
+.offer h4{
+    background-color: white;
+    width: 30px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+.details{
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.details p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.details h2{
+    color: red;
+}
+.details h5{
+    margin-left: 20px;
+    color: grey;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
+    align-items: center;
+}
+.size{
+    color: grey;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+    align-items: center;
+}
+.button{
+    font-weight: bold;
+    font-size: 20px;
+    color: purple;
+}
+.day{
+    text-align: center;
+    margin-top: 5px;
+     margin-left: 15px; 
+    width: 125px;
+}
+.day p{
+    color: grey;
+}
+.day h4{
+    
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: red
+}
+.off{
+    margin-left: 35px;
+    background-color: rgb(113, 5, 113);
+    width: 80px;
+    height: 60px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.off h3{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+#i2{
+    background-image: url(IMAGES/jacket.jpeg);
+}
+#i3{
+    background-image: url(IMAGES/footwear.jpeg);
+}
+#i4{
+    background-image: url(IMAGES/skirt.jpeg);
+}

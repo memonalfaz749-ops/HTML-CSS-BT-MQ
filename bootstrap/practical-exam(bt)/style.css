@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff8ed;
+    width: 95%;
+    margin: 0px auto;
+}
+#logo {
+    width: 80px;
+}
+.logo h3{
+    color: #3a2c22;
+    font-size: 30px;
+}
+.login{
+    display: flex;
+    gap: 15px;
+}
+.nav{
+    justify-content: end;
+    margin: 5px 20px;
+}
+.buy{
+    border-radius: 50%;
+}
+main{
+    text-align: center;
+}
+main h1{
+    margin: 50px auto;
+}
+.option{
+    width: 65%;
+    margin: 5px auto;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.option button{
+    color: #3a2c22;
+    border: 2px solid gold;
+    border-radius: 25px;
+    font-weight: 700;
+    width: px;
+}
+ 
+.menu{
+    padding-top: 40px;
+}
+.cardfoot{
+     display: flex;
+     justify-content: space-between;
+}
+.cardfoot h3{
+    color: #3a2c22;
+}
+.cardfoot a{
+    color: #3a2c22;
+    border: 2px solid gold; 
+    font-weight: 700;   
+    border-radius: 20px;
+}
+.card{
+    width: 300px;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+}
+.card h5{
+    color: #3a2c22;
+    font-weight: 700;
+}
+.container{ 
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff8ed;
+    padding: 5px;
+
+}
+.card img{
+    height: 200px;
+    margin: 5px auto;
+    width: 90%;
+}
+footer{
+    width: 87%;
+    margin: 15px auto;
+    padding: 40px ;
+    background-color: #fff8ed;
+    
+}
+.section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.row h3{
+    width: 250px;
+    text-align: left;
+    font-weight: 700;
+}
+.row input{
+    border: none;
+    width: 180px;
+    
+    background-color: #fff8ed;
+   
+}
+.row hr{
+    margin-top: 5px;
+    width: 175px;
+}
+.email button{
+  border: none;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social p{
+    width: 35px;
+    height: 35px;
+   border: 1px solid #511f24;
+   border-radius: 50%;
+   padding: 1px;
+   padding-top: 5px;
+}
+.p{
+    background-color: gold;
+}
+
+.row{
+    width: 250px;
+}
+.row h2{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.row p{
+    color: grey;
+    margin-top: 10px;
+}
+.social p:hover{
+    cursor: pointer;
+}
+.row p:hover{
+    cursor: pointer;
+}

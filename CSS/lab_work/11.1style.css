@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner{
+    margin: 25px auto;
+    background-color: rgba(206, 205, 205, 0.433);
+    width: 90%;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+}
+.head ::first-letter{
+    font-size: 50px;
+    color: rgb(255, 51, 0);
+
+}
+.head{
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.text{ font-size: 15px;
+    margin-top: 10px;
+    margin-left: 25px
+}
+.text :nth-child(2)::selection{
+     background-color: rgb(241, 214, 126);
+}
+.foot{
+    background-color: lightskyblue;
+    height: 25px;
+    font-size: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 30px;
+    padding: 5px;
+}
+h4::selection{
+    background-color: rgb(43, 250, 7);
+}
+.contaner3{
+    background-color: rgba(206, 205, 205, 0.433);
+    margin: 25px auto;
+    width: 90%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+}
+.contaner2{
+    margin: 25px auto;
+    width: 90%;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px black;
+}
+

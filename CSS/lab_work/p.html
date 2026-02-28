@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Grid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      text-align: center;
+    }
+
+    h2 {
+      margin: 20px;
+    }
+
+    .product-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .product-card {
+      background: white;
+      width: 200px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product-title {
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .product-price {
+      color: #555;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🧩 Layout Lab: Product Display Toggle Grid</h2>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Smart Watch">
+      <div class="product-title">Smart Watch</div>
+      <div class="product-price">$99.99</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Wireless Headphones">
+      <div class="product-title">Wireless Headphones</div>
+      <div class="product-price">$79.00</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Fitness Band">
+      <div class="product-title">Fitness Band</div>
+      <div class="product-price">$49.99</div>
+    </div>
+  </div>
+
+</body>
+</html>

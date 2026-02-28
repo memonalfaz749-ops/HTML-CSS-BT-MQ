@@ -1,0 +1,282 @@
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) { 
+ .post4{
+  margin-left: 50px;
+ }
+ .info h5{
+  padding-top: 60px;
+  padding-bottom: 300px;
+ }
+ }
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+  .pose{
+    flex-wrap: wrap;
+  }
+  .box{
+    width: 300px;
+  }
+  .box img{
+    width: 100%;
+
+  }
+  .poster{
+    display: flex;
+    padding: 20px;
+    
+  }
+  .post1 h1{
+    font-size: 50px;
+  }
+  .post1 p{
+    margin-left: 5px;
+  }
+  .post2 img{
+    width: 500px;
+  } 
+  .poster2{
+   padding: 20px;
+   gap: 10px;
+   
+   
+  }
+  .post4 h1{
+    font-size: 50px;
+  }
+  .post3 img{
+       width: 500px;
+  }
+  .content{
+      flex-wrap: wrap;
+    }
+  .info h5{
+    padding-bottom: 240px;
+  }
+  .footer{
+    text-align: center;
+  }
+  .brand p{
+      width: 95%;
+    }
+  
+  .rows{
+    flex-wrap: wrap;
+  }
+  .section{
+    flex-wrap: wrap;
+    text-align: center;
+    
+  }
+  
+ }
+  /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
+  .hero{
+    background-position: center;
+  }
+   .lines {
+         display: block;
+     }
+
+     .option {
+         display: none;
+     }
+
+     #bar:checked~.option {
+      text-align: center;
+         display: block;
+         position: absolute;
+         top: 80px;
+         background-color: #c7f0dbf8;
+         margin: 0px auto;
+         width: 90%;
+         height: 100vh;
+
+     }
+     .option p{
+      margin-top: 15px;
+     }
+     .main{
+      background-position: center;
+     }
+  
+  .box{
+      
+      margin-bottom: 25px;
+     }
+    .post2 img{
+      width: 350px;
+    }
+    
+    .pricing{
+      width: 300px;
+    }
+    .pricing button{
+      width: 90%;
+    }
+    .post3 img{
+       width: 350px;
+       padding-left: 60px;
+  }
+  
+  .part7{
+    background-position: right;
+  }
+  .info h5{
+    padding-bottom: 20px;
+  }
+  .brand p{
+      width: 95%;
+    }
+  
+  
+  
+ }
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) { 
+  .text h1{
+    font-size: 50px;
+    flex-wrap: wrap;
+  }
+  .logo{
+    padding-left: 0px;
+  }
+  .nav{
+    padding: 0px 30px;
+  }
+  .lines {
+         display: block;
+     }
+
+     .option {
+         display: none;
+     }
+
+     #bar:checked~.option {
+      text-align: center;
+         display: block;
+         position: absolute;
+         top: 80px;
+         background-color: #c7f0dbf8;
+         margin: 0px auto;
+         width: 90%;
+         height: 100vh;
+
+     }
+     .option p{
+      margin-top: 15px;
+     }
+     .center p{
+      width: 100%;
+     }
+     
+     .poster{
+      flex-wrap: wrap-reverse;
+     }
+     .post1{
+    text-align: center;
+  }
+  .post1 h1{
+    margin-left: -15px;
+  }
+  .post1 p{
+    margin-left: 10px;
+    width: 90%;
+  }
+  .post4 p{
+    margin-left: 10px ;
+    width: 90%;
+  }
+  .poster2{
+    display: flex;
+    
+    
+  }
+   .post2 img{
+    width: 100%;
+  }
+  .post3 img{
+    width: 100%;
+    padding-left: 40px;
+  }
+    .post4{
+      text-align: center;
+      
+    }
+     .poster2{
+      flex-wrap: wrap;
+     }
+     .enter input{
+      width: 350px;
+     }
+     
+     .detail{
+      flex-wrap: wrap;
+      text-align: center;
+      gap: 100px;
+      
+     }
+     .post h5{
+      margin-bottom: 30px;
+     }
+     .info p{
+    padding-top: 150px;
+    width: 80%;
+  }
+      .section{
+      margin: 10px auto;
+    }
+  
+ }
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+  .text p{
+    width: 90%;
+  }
+ .post3 img{
+  padding-left: 0px;
+ }
+  
+    .post4 h1{
+      /* font-size: 35px; */
+            margin-left: -60px;
+
+    }
+    .post1 button{
+      margin-left: -20px;
+    }
+    
+    .post4 p{
+      width: 90%;
+      margin-left: -10px;
+    }
+    .post4 button{
+  margin-left: -65px;
+    }
+    .enter button{
+      margin-top: 25px;
+    }
+    .enter input{
+      width: 300px;
+      height: 60px;
+     }
+
+    .row{
+    width: 100%;
+  }
+  .row p{
+    width: 100%;
+  }
+    
+ }
+ .post h5{
+  margin-bottom: 40px;
+ }
+ 
+
+ 
+
+
+
+ 
+

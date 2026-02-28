@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    height: 400px;
+    border: 5px solid black;
+    margin: 50px auto;
+    background-color: rgb(192, 191, 191);
+}
+.product{
+    margin: 30px 180px;
+    
+}
+.box{
+    background-color: white;
+    width: 200px;
+    height: 270px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    
+
+}
+h1{
+   text-align: center;    
+}
+.details{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+img{
+    margin: 3px 10px;
+    width: 180px;
+    height: 170px;
+    
+}
+p{
+    color: grey;
+}

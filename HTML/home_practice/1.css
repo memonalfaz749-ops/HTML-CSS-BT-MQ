@@ -1,0 +1,15 @@
+body{
+    align-items: center;
+    
+    width: 100%;
+    text-align: center;
+    
+}
+.para{
+    margin-left: 400px;
+    background: mediumpurple;
+    width: 500px;
+    box-shadow: 0px 0px 5px black;
+    font-size: 100px;
+    text-transform: uppercase
+}

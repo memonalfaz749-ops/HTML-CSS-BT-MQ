@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.part1 {
+    background-color: black;
+    color: white;
+}
+
+.head {
+    align-items: center;
+    padding: 10px auto;
+    justify-content: space-around;
+    display: flex;
+}
+.head input{
+    display: none;
+}
+#blue{
+    color: blue;
+}
+.head h1 {
+    font-size: 35px;
+}
+
+.page {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+.lines{
+    display: none;
+}
+
+.option {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+span{
+    color: gold;
+}
+.gender {
+    text-align: center;
+    display: flex;
+    background-color: blue;
+    padding: 10px 20px;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.nav {
+    margin: 0px auto;
+    padding: 15px;
+    background-color: white;
+    color: grey;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.nav input{
+    display: none;
+}
+.bars{
+    display: none;
+}
+.links {
+    padding-left: 450px;
+    display: flex;
+    gap: 80px;
+}
+
+.nav h5 {
+    padding-right: 150px;
+}
+
+.hero {
+    display: flex;
+    background-color: rgb(38, 40, 55);
+
+
+}
+
+.left img {
+    width: 750px;
+}
+
+.right {
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.right h2 {
+    font-size: 40px;
+}
+
+.right h3 {
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.right p {
+    margin: 0px auto;
+    width: 80%;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.right button {
+    background-color: rgb(38, 40, 55);
+    border-radius: 25px;
+    margin-top: 50px;
+    color: white;
+    border: 2px solid darkblue;
+    width: 200px;
+    height: 40px;
+}
+.part3{
+    text-align: center;
+    margin-top: 80px;
+}
+.part3 h1{
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.part3 p{
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.shoes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.box h2{
+    padding-top: 10px;
+    font-size: 35px;
+}
+.box h6{
+    color: grey;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.box h3{
+    padding-top: 10px;
+    font-size: 22px;
+    color: purple;
+}
+.box img {
+    width: 350px;
+}
+#b2 h2{
+    padding-top: 35px;
+}
+.part3 h5{
+    margin-top: 50px;
+    color: grey;
+    font-size: 18px;
+}
+.footer{
+    color: white;
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.footer p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.social{
+    padding: 10px;
+}
+#under{
+    text-decoration: underline;
+}

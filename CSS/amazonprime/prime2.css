@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.structure{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    height: 2200px;
+    color: white;
+    
+}
+
+.heading{
+    background-color: rgba(0, 0, 0, 0.357);
+    height: 70px;
+    width: 95%;
+    position: sticky;
+    top: 0;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.left h2{
+    margin-left: 50px;
+}
+.left h2,p{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.left p{
+  cursor: pointer;
+  font-weight: bold;
+}
+#select{
+  background-color: #222;
+  color: white;
+}
+.left p:hover{
+   background-color: white;
+      color: black;
+}
+#select:hover{
+  background-color: white;
+  color: black;
+}
+#dash{
+  margin-left: 40px;
+  margin-top: 15px;
+}
+#paid{
+  margin-left: -20px;
+}
+
+.right{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.right p{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+.right p:hover{
+   background-color: white;
+      color: black;
+}
+
+#button{
+  cursor: pointer;
+    margin-top: 15px;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(9, 158, 250);
+    border-radius: 8px;
+    margin-right: 50px;
+}
+
+h5{
+    padding: 10px;
+}
+#button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    
+}
+
+ .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Hide checkbox */
+    .dropdown input {
+      display: none;
+    }
+
+    /* Button */
+    .dropbtn {
+       margin-top: 10px;
+      /* background-color: #222; */
+      color: white;
+      padding: 10px 16px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .dropbtn:hover {
+      background-color: white;
+      color: black;
+    }
+
+    /* Dropdown menu */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #222;
+      width: 700px;
+      max-height: 400px;
+      /* overflow-y: auto; */
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+      border-radius: 8px;
+      margin-top: 8px;
+      padding: 16px;
+      z-index: 1;
+      right: 0;
+      left: auto;
+    }
+
+    /* Show dropdown with grid */
+    .dropdown input:checked ~ .dropdown-content {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 🔹 4 columns */
+      gap: 10px 30px;
+    }
+
+    .lang-item {
+      padding: 6px 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      border-radius: 4px;
+    }
+
+    .lang-item:hover {
+      background-color: #444;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .mainmovie{
+      margin-top: -100px;
+      background-image: url(image/hero.webp);
+      width: 100%;
+      height: 600px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.491);
+      background-blend-mode: color-burn;
+    }
+    #logo img{
+      margin-top: 180px;
+      margin-left: 70px;
+      width: 80px;
+      height: 40px;
+    }
+    #herotext img{
+      height: 200px;
+      margin-top: 15px;
+      margin-left: 70px;
+    }
+    .sub{
+      display: flex;
+      gap: 15px;
+      margin-left: 70px;
+      margin-top: 20px;
+      /* align-items: center; */
+    }
+    .sub h3{
+      cursor: pointer;
+      background-color: rgb(48, 47, 47);
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+    .sub h1,.sub h2{
+      cursor: pointer;
+       background-color: rgb(48, 47, 47);
+      height: 60px;
+      padding-top: 8px;
+      width: 60px;
+      border-radius: 50%;
+     text-align: center;
+     font-size: 30px;
+     font-weight: normal;
+    }
+    .sub h1{
+      padding-top: 0px;
+      font-size: 40px;
+    }
+    .sub h1:hover,.sub h2:hover,.sub h3:hover{
+       background-color: white;
+       color: black;
+       transform: scale(1.1);
+    
+    }
+    .movies h1{
+      margin-left: 40px;
+      margin-bottom: 15px;
+    }
+    .section h3{
+      margin-left: 40px;
+    }
+    .section span{
+      margin-left: 30px;
+    }
+    .poster{
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 20px;
+    }
+.poster img{
+  width: 270px;
+  height: 170px;
+  border-radius: 10px;
+}  
+.poster img:hover{
+  transform: scale(1.2);
+}
+#foot{
+    
+    height: 95px;
+    background-color: black;
+    text-align: center;
+
+}
+img{
+    margin-top: 15px;
+}
+.links{
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.links p{
+    color: lightskyblue;
+
+}

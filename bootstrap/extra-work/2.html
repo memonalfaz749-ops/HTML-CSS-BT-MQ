@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 200vh;
+            /* so you can scroll */
+        }
+
+        /* Create scroll timeline */
+       
+
+        /* Navbar */
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 70px;
+            z-index: 100;
+        }
+
+        /* Background using ::before */
+        .nav::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            /* your bg color */
+            opacity: 0;
+            /* starts transparent */
+
+            /* animation options */
+            animation: fade-bg 1s linear both;
+            animation-timeline: nav-time;
+        }
+
+        /* Animation */
+        @keyframes fade-bg {
+            0% {
+                opacity: 0;
+            }
+
+            /* at top */
+            100% {
+                opacity: 1;
+            }
+
+            /* after 40px scroll */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="nav">Navbar</header>
+
+    <div class="content">
+        <p>Scroll down...</p>
+    </div>
+</body>
+
+</html>

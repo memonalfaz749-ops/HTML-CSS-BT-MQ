@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.part1 {
+    background-image: url(images/background.png);
+    background-size: cover;
+    width: 100%;
+    background-color: #555d70;
+}
+
+.links {
+    display: none;
+
+}
+
+.links p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    margin-top: 15px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 15px;
+
+}
+
+.search i {
+    color: white;
+    font-size: 20px;
+}
+
+input {
+    text-align: right;
+    width: 138px;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: inset -0.174px 4.997px 9px rgba(2, 4, 0, 0.19);
+    background-color: #fdfff8;
+}
+
+.check {
+    display: none;
+}
+
+#bar:checked~.links {
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80px;
+    background-color: black;
+    margin: 0px auto;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    padding-top: 30px;
+    font-size: 60px;
+    line-height: 66px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.text h2 {
+    line-height: 49px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    font-size: 26px;
+}
+
+.text h4 {
+    font-size: 15px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #262b44;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin: 5px auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #ffffff;
+}
+
+.text h3 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+
+}
+
+.textarea {
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.textarea h1 {
+    font-size: 50px;
+    line-height: 75px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.textarea h3 {
+    font-size: 25px;
+    line-height: 58px;
+    color: #23262c;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.textarea p {
+    font-size: 23px;
+    line-height: 42px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.poster img {
+    width: 95%;
+    margin-left: 10px;
+
+}
+
+.part3 {
+    background-image: url(images/background2.png);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+
+.part3 h1 {
+    padding-top: 15px;
+    font-size: 50px;
+    color: #feffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.part3 p {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #feffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin: 10px auto;
+}
+
+.part3 h5 {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin: 0px auto;
+    width: 103px;
+    height: 26px;
+    border-radius: 21px;
+    filter: drop-shadow(-0.14px 3.998px 21px rgba(3, 3, 3, 0.2));
+    background-color: #de7b6d;
+    padding-bottom: 25px;
+}
+
+.part4 {
+    width: 100%;
+    text-align: center;
+}
+
+.menu h1 {
+    margin-top: 15px;
+    font-size: 50px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.menu p {
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: px;
+    text-transform: uppercase;
+    color: #23262c;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.food img {
+    width: 300px;
+    margin: 10px;
+}
+
+.service {
+    text-align: center;
+    width: 100%;
+}
+
+.h {
+    display: flex;
+}
+
+.h h1 {
+    margin: 10px auto;
+    font-size: 40px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.content {
+    margin-top: 25px;
+}
+
+.box img {
+    margin-top: 15px;
+}
+
+.box h3 {
+    margin: 10px auto;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.box hr {
+    width: 90%;
+    color: black;
+    height: 2px;
+    margin: 5px auto;
+}
+
+.box p {
+    width: 90%;
+    font-size: 20px;
+    margin: 20px auto;
+    color: #23262c;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.part6 {
+    margin-top: 10px;
+    background-image: url(images/background3.png);
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    height: 440px;
+}
+
+.pasta {
+    text-align: center;
+}
+
+.pasta hr {
+    height: 2px;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.pasta h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #feffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.pasta h1 {
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: #feffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.pasta h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    color: #feffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.pasta p {
+    margin-bottom: 15px;
+    font-size: 23px;
+    line-height: 32px;
+    color: #feffff;
+    font-weight: 500;
+    font-family: "Raleway";
+}
+
+.pasta h5 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    width: 149px;
+    height: 35px;
+    border-radius: 20px;
+    filter: drop-shadow(-0.14px 3.998px 21px rgba(3, 3, 3, 0.2));
+    background-color: #d87163;
+    margin: 10px auto;
+
+}
+
+.discover {
+    text-align: center;
+}
+
+.discover h1 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 38px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.circle img {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.circle h3 {
+    margin-top: 10px;
+    font-size: 33px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+
+circle p {
+    margin-top: 15px;
+    font-size: 21px;
+    color: #23262c;
+    font-weight: 500;
+    font-family: "Raleway";
+}
+
+.circle hr {
+    width: 90%;
+    margin: 10px auto;
+    height: 2px;
+}
+
+.circle h5 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    width: 149px;
+    height: 33px;
+    border-radius: 20px;
+    filter: drop-shadow(-0.14px 3.998px 21px rgba(3, 3, 3, 0.2));
+    background-color: #d87163;
+    margin: 10px auto;
+
+}
+
+.part8 {
+    background-color: #23262c;
+    text-align: center;
+}
+
+.part8 h2 {
+    margin-top: 15px;
+    padding-top: 35px;
+    font-size: 40px;
+    color: #e88174;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.part8 h1 {
+    font-size: 47px;
+    color: #e88174;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.part8 h6 {
+    font-size: 25px;
+    color: #feffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 25px;
+}
+
+.section h3 {
+    font-size: 30px;
+    color: #feffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-top: 10px;
+}
+
+.section span {
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 25px;
+    color: #feffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.section hr {
+    width: 90%;
+    margin: 10px auto;
+    height: 2px;
+    color: white;
+}
+
+.section p {
+    width: 85%;
+    margin: 5px auto;
+    font-size: 20px;
+    color: #feffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.part9 {
+    background-image: url(images/background4.png);
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.part9 img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 150px;
+    margin: 5px auto;
+}
+
+.part9 h2 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding-bottom: 80px;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sec1 h2 {
+    font-size: 42px;
+    line-height: 33px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding-bottom: 15px;
+}
+
+.sec1 p {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 21px;
+    line-height: 29px;
+    color: #23262c;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.sec1 hr {
+    width: 90%;
+    margin: 10px auto;
+    height: 2px;
+}
+
+.sec1 img {
+    margin: 10px auto;
+}
+
+.name {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name h3 {
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 33px;
+    color: #23262c;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.name hr {
+    width: 90%;
+    margin: 10px auto;
+    height: 2px;
+
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.row h5 {
+    font-size: 17px;
+    line-height: 33px;
+    color: #23262c;
+    font-weight: 700;
+    font-family: "Raleway";
+}

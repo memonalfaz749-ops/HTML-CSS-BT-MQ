@@ -1,0 +1,292 @@
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) { 
+    .textarea{
+        width: 100%;
+    }
+    #box3{
+        display: none;
+    }
+    .part4{
+        width: 100%;
+    }
+ }
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) { 
+   .part5 img{
+    margin: 0px;
+   }
+   .content{
+    gap: 0px;
+   }
+   footer{
+        display: none;
+       }
+       .footer-2{
+        display: block;
+       }
+       .part3{
+        gap: 50px;
+        margin-left: 100px;
+       }
+       .part3right video{
+        width: 350px;
+       }
+       .part7{
+        background-size: cover;
+       }
+   
+ }
+  /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
+    .hero-1{
+        display: none;
+    }
+    .hero-2{
+        display: block;
+    }
+
+    .head{
+        display: none;
+    }
+    .nav-2{
+        display: block;
+    }
+       .product{
+        flex-wrap: wrap;
+       }
+       .space{
+        width: 90%;
+       }
+       .part2{
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+       .part3{
+        /* flex-wrap: wrap; */
+        margin-left: 5%;
+        gap: 5%;
+       }
+       .left{
+        margin-left: 5%;
+        width: 45%;
+    }
+     .right{
+        width: 45%;
+        margin: 10px auto;
+       }
+
+       .part3right{
+        width: 100%;
+       }
+       .part3right video{
+        margin: 10px auto;
+        width: 320px;
+       }
+       
+       .part7{
+        background-size: cover;
+        background-position: right;
+       }
+       .part10 img{
+        width: 80%;
+       }
+       
+ }
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) { 
+    
+     .part2{
+          flex-wrap: wrap;
+    }
+    
+    .left h1{
+        margin-top: 40px;
+    }
+      
+       .part3{
+        flex-wrap: wrap;
+       }
+       .part3left p{
+        margin-left: 50px;
+        
+       }
+       .section-text p{
+        font-size: 17px;
+        line-height: 20px;
+       }
+       .part3right video{
+        width: 90%;
+        margin: 10px auto;
+       }
+       .part4 h1{
+        font-size: 35px;
+        line-height: 38px;
+        width: 90%;
+       }
+       .part7{
+        background-size: cover;
+        background-position: right;
+       }
+       #box2{
+        display: none;
+       }
+       #box6{
+        display: none;
+       }
+       
+ }
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    
+    .navigation{
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .logo1 {
+        width: 100px;
+    }
+    .lock{
+
+        margin-right: -20px;
+        width: 40px;
+    }
+    .box{
+        display: none;
+    }
+    .login{
+        justify-content: end;
+        gap: 10px;
+        align-items: normal;
+    }
+    .part2 p{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .founder{
+        flex-wrap: wrap;
+    }
+    .leftside{
+        width: 100%;
+    }
+    .rightside{
+        width: 100%;
+    }
+    .mini{
+        display: block;
+    }
+    #delete{
+        display: none;
+    }
+    .left{
+        margin-left: 5%;
+        width: 95%;
+    }
+    
+    .part3left p{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .section-text p{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .part4 p{
+        margin-left: 10px;
+        width: 90%;
+    }
+    .part4 h1{
+        margin-left: 10px;
+        width: 90%;
+    }
+    .part5{
+        width: 100%;
+    }
+    .content{
+        display: none;
+    }
+    .carousel-2{
+        display: block;
+    }
+    .part5 p{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .part5 h1{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .part6 p{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .part7 p{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .phone{
+        display: block;
+    }
+    .foot-text{
+        display: none;
+    }
+    .text{
+        width: 100%;
+    }
+    .right{
+        width: 90%;
+    }
+    .part10 h1{
+        width: 100%;
+    }
+    .product{
+        display: none;
+    }
+    .mobile{
+        margin: 10px auto;
+        display: block;
+    }
+    .feature{
+        gap: 20px;
+    }
+    .feature img{
+        height: 40px;
+    }
+    .colum1{
+        margin-top: 10px;
+    }
+    .row2{
+        display: block;
+    }
+    .footer-2 hr{
+        display: block;
+    }
+    .footer-2 img{
+        margin-left: 10px;
+    }
+    #hr{
+        color: rgb(133,133,133);
+        height: 1.5px;
+        width: 80%;
+        margin: 15px auto;
+    }
+    .space{
+        width: 350px;
+    }
+    #s1{
+        width: 95%;
+    }
+    #s2{
+        width: 95%;
+    }
+    #s3{
+        width: 95%;
+    }
+    
+ }
+
+ 
+
+
+
+ 
+

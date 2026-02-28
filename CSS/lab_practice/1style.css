@@ -1,0 +1,32 @@
+.body{
+    text-indent: 100;
+     text-align: center;
+    width: 800px;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgb(133, 144, 209);
+}
+p{
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.blu{
+    color: blue;
+    text-shadow: 2px 2px 3px purple;
+}
+.red{
+    color: rgba(245, 12, 12, 0.959);
+    text-shadow: 2px 2px 3px orange;
+
+}
+.oran{
+    color: orangered;
+    text-shadow: 2px 2px 3px red;
+}
+.yell{
+    color: yellow;
+    text-shadow: 2px 2px 3px aquamarine;
+}

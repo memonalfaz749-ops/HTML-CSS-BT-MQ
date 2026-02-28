@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f3f3f3;
+}
+
+.flip-card{
+    width:300px;
+    height:200px;
+    perspective:1000px;
+}
+
+.flip-card-inner{
+    width:100%;
+    height:100%;
+    position:relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.flip-card-front{
+    background:#667eea;
+    color:white;
+}
+
+.flip-card-back{
+    background:#764ba2;
+    color:white;
+    transform: rotateY(180deg);
+}
+    </style>
+</head>
+<body>
+    <div class="flip-card">
+    <div class="flip-card-inner">
+        
+        <div class="flip-card-front">
+            <h2>Alfaz</h2>
+            <p>Frontend Developer</p>
+        </div>
+
+        <div class="flip-card-back">
+            <h2>Skills</h2>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Bootstrap</p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

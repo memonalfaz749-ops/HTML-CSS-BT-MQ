@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        /* background-color: black; */
+      }
+       .custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-menu li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #444;
+  
+}
+
+.custom-dropdown:hover .dropdown-menu {
+  display: block;
+}
+.logo{
+
+  /* background-color: black; */
+}
+    </style>
+</head>
+<body>
+    <div class="custom-dropdown">
+  <div class="dropdown-toggle">Select Language</div>
+  <ul class="dropdown-menu">
+    <li>English</li>
+    <li>Bahasa Indonesia</li>
+    <li>Bahasa Melayu</li>
+    <li>Dansk</li>
+    <li>Deutsch</li>
+    <!-- Add more languages here -->
+  </ul>
+</div>
+<div id="logo"> <img src="IMAGES/logo.png5" alt=""></div>
+</body>
+</html>

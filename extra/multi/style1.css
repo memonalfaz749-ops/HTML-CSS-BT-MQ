@@ -1,0 +1,19 @@
+.game-title {
+    text-align: center;
+    margin-top: 80px;
+    color: cyan;
+    text-shadow: 0 0 15px cyan;
+}
+
+#score {
+    text-align: center;
+    color: white;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    background: black;
+    box-shadow: 0 0 25px cyan;
+    border: 2px solid cyan;
+}

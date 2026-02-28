@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.structure{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    height: 2200px;
+    color: white;
+    
+}
+
+.heading{
+    background-color: rgba(0, 0, 0, 0.592);
+    height: 70px;
+    width: 95%;
+    position: sticky;
+    top: 0;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.left h2{
+    margin-left: 50px;
+}
+.left h2,p{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.left p{
+    cursor: pointer;
+    font-weight: bold;
+}
+.left p:hover{
+   background-color: white;
+      color: black;
+}
+span{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: -35px;
+}
+#paid{
+  margin-left: 10px;
+}
+.right{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.right p{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+.right p:hover{
+   background-color: white;
+      color: black;
+}
+#button{
+    margin-top: 15px;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(9, 158, 250);
+    border-radius: 8px;
+    margin-right: 50px;
+}
+
+h5{
+    padding: 10px;
+}
+#button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    
+}
+.right p,select{
+    margin-top: 15px;
+}
+.main{
+    margin-top: 10px;
+    display: flex;
+    gap: 80px;
+    height: 600px;
+    /* background: #0e1112;
+    background: linear-gradient(90deg, rgba(14, 17, 18, 1) 45%, rgba(26, 7, 237, 1) 65%); */
+    background: #0e1112;
+    background: linear-gradient(90deg, rgba(14, 17, 18, 1) 53%, rgba(26, 7, 237, 1) 64%);
+}
+h1{
+    margin-top: 80px;
+    margin-left: 45px;
+    font-size: 57px;
+}
+.main1 p{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 25px;
+}
+.sign{
+    cursor: pointer;
+    width: 220px;
+    height: 50px;
+    margin: 45px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.sign:hover{
+    transform: scale(1.1);
+    background-color: rgb(9, 158, 250);
+    color: white;
+}
+.sign h3{
+    padding: 10px;
+}
+.box{
+    width: 350px;
+    height: 200px;
+    border: 4px solid blue;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.row1,.row2{
+    display: flex;
+    gap: 10px;
+    
+}
+.row1{
+    margin-top: 80px;
+}
+.row2{
+    margin-top: 10px;
+}
+#i1{
+    background-image: url(image/primeimg1.jpeg);
+}
+#i2{
+    background-image: url(image/primeimg2.jpeg);
+}
+#i3{
+    background-image: url(image/primeimg3.jpeg);
+}
+#i4{
+    background-image: url(image/primeimg4.jpeg);
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+.center-left p{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 23px;   
+}
+.rent{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin: 45px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+.rent:hover{
+    transform: scale(1.1);
+    background-color: rgb(9, 158, 250);
+    color: white;
+}
+.rent h4{
+    padding: 7px;
+}
+.center-right{
+    
+     margin-top: 25px;
+     width: 800px;
+     height: 720px;
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+#prime{
+    background-image: url(image/prime.png);
+}
+.bottom{
+    gap: 100px;
+    display: flex;
+}
+
+.bottom-left h1{
+    margin-top: 60px;
+    margin-left: 45px;
+    font-size: 57px;
+}
+.bottom-left p{
+    
+     margin-top: 50px;
+     margin-left: 45px;
+     font-size: 23px;   
+}
+.bottom-right{
+    margin-top: -50px;
+}
+.row1,.row2,.row3{
+    display: flex;
+    gap: 5px;
+    
+}
+.row1{
+    margin-bottom: -10px;
+}
+
+.app{
+    cursor: pointer;
+    margin-top: 8px;
+    width: 220px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* background: #19b9e6;
+    background: linear-gradient(90deg, rgba(25, 185, 230, 1) 19%, rgba(11, 93, 110, 1) 42%); */
+}
+.app:hover{
+   transform: scale(1.01);
+   box-shadow: -3px -3px 5px white;
+}
+#a1{
+    background-image: url(image/a1.jpeg);
+}
+#a2{
+    background-image: url(image/a2.jpeg);
+}
+#a3{
+    background-image: url(image/a3.jpeg);
+}
+#a4{
+    background-image: url(image/a4.jpeg);
+}
+#a5{
+    background-image: url(image/a5.jpeg);
+}
+#a6{
+    background-image: url(image/a6.jpeg);
+}
+#a7{
+    background-image: url(image/a7.jpeg);
+}
+#a8{
+    background-image: url(image/a8.jpeg);
+}
+#a9{
+    background-image: url(image/a9.jpeg);
+}
+#foot{
+    margin-top: 200px;
+    height: 95px;
+    background-color: rgb(58, 57, 57);
+    text-align: center;
+    /* width: 100%; */
+    /* height: 100px; */
+
+}
+img{
+    margin-top: 15px;
+}
+.links{
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.links p{
+    color: lightskyblue;
+
+}
+
+ .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Hide checkbox */
+    .dropdown input {
+      display: none;
+    }
+
+    /* Button */
+    .dropbtn {
+       margin-top: 15px;
+      color: white;
+      padding: 10px 16px;
+      font-size: 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .dropbtn:hover {
+      background-color: white;
+      color: black;
+    }
+
+    /* Dropdown menu */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #222;
+      width: 700px;
+      max-height: 400px;
+      /* overflow-y: auto; */
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+      border-radius: 8px;
+      margin-top: 8px;
+      padding: 16px;
+      z-index: 1;
+      right: 0;
+      left: auto;
+    }
+
+    /* Show dropdown with grid */
+    .dropdown input:checked ~ .dropdown-content {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 🔹 4 columns */
+      gap: 10px 30px;
+    }
+
+    .lang-item {
+      padding: 6px 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      border-radius: 4px;
+    }
+
+    .lang-item:hover {
+      background-color: #444;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: white;
+        color: black;
+    }

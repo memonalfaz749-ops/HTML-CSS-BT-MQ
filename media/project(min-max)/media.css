@@ -1,0 +1,182 @@
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .name {
+        justify-content: space-around;
+    }
+  .rows{
+    justify-content: space-around;
+  }
+  .box h3{
+    font-size: 25px;
+  }
+  .box p{
+       width: 400px;
+  }
+  .circle p{
+    width: 400px;
+    margin: 10px auto;
+  }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .about{
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+        margin: 10px auto;
+    }
+    .poster img{
+        width: 45%px;
+    }
+    .food {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .menu2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;     
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .links{
+        display: block;
+        display: flex;
+        gap: 25px;
+    }
+    .pasta{
+        text-align: left;
+        width: 40%;
+        margin-left: 60%;
+      }
+      .pasta h2{
+          margin-left: 50px;
+      }.pasta h1{
+          margin-left: 50px;        
+      }.pasta h3{
+        width: 85%;
+          margin-left: 50px;        
+      }
+      .pasta h5{
+        text-align: center;
+      }
+      .pasta p{
+        width: 80%;
+        margin-left: 50px;
+        padding-bottom: 25px;
+      }
+    .circle p{
+        font-size: 28px;
+    }
+    .part9 img{
+        padding-top: 60px;
+        width: 250px;
+    }
+    .part9 h2{
+        padding-top: 35px;
+        padding-bottom: 200px;
+    }
+    .price{
+        display: flex;
+        justify-content: center;
+    }
+    .footsec{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .sec1{
+        width: 50%;
+        text-align: left
+    }
+    .sec1 p {
+      width: 100%;
+    }
+    .sec1 hr{
+        width: 100%;
+    }
+    .name{
+        gap: 30px;
+    }
+    .rows{
+        gap: 30px;
+    }
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .input{
+      width: 200px;
+      height: 50px;
+    }
+    .links{
+        gap: 50px;
+    }
+      .about{
+        width: 95%;
+        margin: 20px auto;
+      }
+      .textarea p{
+          width: 90%;
+          margin: 10px auto;
+      }
+      .poster img{
+        width: 60%px ;
+      }
+      .part3{
+        height: 400px;
+      }
+      .part3 h1{
+          padding-top: 130px;
+          padding-bottom: 30px;
+      }
+      .part3 p{
+        padding-bottom: 60px;
+      }
+      .food img{
+         width: 400px;
+      }
+      .part4{
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+      .part5{
+        margin-bottom: 30px;
+      }
+      .part7{
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+      .part10{
+        margin-top: 40px;
+      }
+      
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .text h3{
+      padding-bottom: 50px;
+    }
+    .footer{
+      padding-bottom: 30px;
+    }
+ }

@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: rgba(0, 0, 0, 0.607);
+    background-blend-mode: color-burn;
+    background-image: url(image/home.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.navigation{
+    display: flex;
+    gap: 350px;
+}
+.logo{
+    display: flex;
+    color: white;
+}
+.navigation img{
+    margin-left: 10px;
+    color: WHITE;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.link{
+    gap: 15px;
+}
+.navigation select{
+    
+     margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding-left: 0px;
+}
+#p{
+    width: 80px;
+    padding-left: 10px;
+}
+.right{
+     margin-top: 10px;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+#button{
+    margin-top: -5px;
+    padding: 5px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(211, 51, 105);
+}
+.homepage{
+    margin-top: 150px;
+    display: flex;
+    gap: 550px;
+}
+#b button{
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    color: rgb(211, 51, 105);
+    border: none;
+}
+.text{
+    color: white;
+}
+.text h1{
+    margin-top: -50px;
+    font-size: 60px;
+}
+.text h2{
+    margin-left: 450px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text button{
+    
+    color: white;
+    margin-top: -5px;
+    padding: 5px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(211, 51, 105);
+    border: none;
+}
+#b1{
+    margin-left: 420px;
+}
+#button1{
+    
+    background-color: white;
+    color:rgb(211, 51, 105) ;
+}
+.center{
+    margin-top: 50px;
+    gap: 80px;
+    display: flex;
+}
+.photo img{
+      border: 2px solid white;
+      position: absolute;
+      border-radius: 10px;
+}
+#i1{
+      width: 200px;
+      height: 250px;
+      z-index: 0;
+      top: 750px;
+      left: 480px;
+}
+#i2{
+      width: 300px;
+      height: 300px;
+      top: 50;
+      left: 280px;
+      z-index: 1;
+}
+#i3{
+      width: 100px;
+      height: 100px;
+      z-index: 2;
+      top: 580px;
+      left: 530px;
+}
+#i4{
+      width: 200px;
+      height: 200px;
+      z-index: 3 ;
+      top: 750px;
+      left: 200px;
+      
+}
+.about{
+    margin-left: 800px;
+}
+.about h5{
+    
+   color:rgb(211, 51, 105) ;
+}
+.about h1{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+#exp{
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+#year h2{
+   margin-bottom: 15px;
+   font-size: 50px;
+   text-align: center;
+   color:rgb(211, 51, 105) ;
+}
+#tick p{
+    margin-top: 10px;
+}
+#read{
+    font-size: large;
+    margin-top: 35px;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(211, 51, 105);
+    border: none;
+}
+.service{
+    margin-top: 100px;
+    background-color: rgba(211, 211, 211, 0.441);
+    width: 100%;
+    height: 400px;
+}
+.service p{
+    padding-top: 15px;
+    text-align: center;
+   color:rgb(211, 51, 105) ;
+}
+.service h1{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.box{
+    width: 200px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+.box h4,h5,h3{
+    color: black;
+    margin-left: 15px ;
+}
+.box h5{
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box h4{
+    font-weight: normal;
+}
+#box1 img{
+    width: 80px;
+    height: 80px;
+}
+#box1 h4{
+    margin-top: 95px;
+}
+#box2 img{
+    width: 100px;
+    height: 80px;
+}
+#box3  img{
+    margin-left: 15px;
+    width: 50px;
+    height: 80px;
+}
+#box4 img{
+    width: 80px;
+    height: 80px;
+}
+.price h4{
+    font-weight: normal;
+    padding-top: 35px;
+    text-align: center;
+    color:rgb(211, 51, 105) ;
+}
+.price h1{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pricebox{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.pbox{
+    text-align: center;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+
+}
+.pbox1{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.881);
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 5px black;
+    width: 250px;
+    height: 350px;
+    color: white;
+}
+#pbox2{
+    color: white;
+}
+.pbox1 p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+hr{
+    color: grey;
+    margin: 0px 15px;
+}
+#pbox1 p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pbox h2{
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(200, 60, 107);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px auto;
+    box-shadow: 3px -3px 3px pink;
+}
+.pbox1 h2{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(200, 60, 107);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px auto;
+     box-shadow: 3px -3px 3px pink;
+
+}
+.pbox h6{
+    width: 150px;
+    height: 25px;
+    background-color: rgb(200, 60, 107);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 0px auto;
+}
+.pbox1 h6{
+     width: 150px;
+    height: 25px;
+    background-color: white;
+    color: rgb(200, 60, 107);
+    padding: 5px;
+    text-align: center;
+    margin: 0px auto;
+}
+.footer{
+    
+    margin-top: 50px;
+    background-color: rgb(2, 2, 42);
+    height: 500px;
+}
+
+.rows{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.foot{
+    margin-top: 80px;
+}
+
+.brand{
+    
+    
+    margin-bottom: 10px;
+    display: flex;
+    color: white;
+}
+
+.brand img{
+    top: 80px;
+    color: WHITE;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+.social{
+    
+    gap: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.foot h5{
+    color: white;
+    margin-top: 20px;
+    
+}
+.grow1 img{
+    margin-left: 10px;
+    margin-top: 10px;
+   width: 100px;
+   height: 100px;
+   border-radius: 10px; 
+}
+.foot h4{
+    margin-bottom: 20px;
+    color: rgb(200, 60, 107);
+}
+.detail p{
+   color: white;
+   margin-top: 15px;
+}
+.detail hr{
+   margin-left: -5px;
+   color: grey; 
+   margin-top:10px ;
+   margin-bottom:5px ;
+   width: 200px;
+}
+#h{
+    width: 70%;
+    margin: 0px auto;
+    color: grey;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+.copy span{
+    color: rgb(200, 60, 107);
+}

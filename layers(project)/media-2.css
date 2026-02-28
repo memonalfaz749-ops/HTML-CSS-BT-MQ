@@ -1,0 +1,115 @@
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) { 
+      .box{
+        width: 260px;
+      }
+ }
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) { 
+    .box{
+        width: 230px;
+      }
+      .box img{
+        height: 350px;
+      }
+      .box img:hover{
+        height: 350px;
+      }
+      footer{
+        display: none;
+       }
+       .footer-2{
+        display: block;
+       }
+ }
+  /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
+    .head{
+        display: none;
+    }
+    .nav-2{
+        display: block;
+    }
+    .box{
+        width: 90%;
+    }
+    .box img{
+        height: 420px;
+    }
+    .box img:hover{
+        height: 420px;
+    }
+     .collection{
+        grid-template-columns: repeat(2,1fr);
+     }
+
+ }
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) { 
+       .box{
+        width: 90%;
+    }
+    .box img{
+        height: 300px;
+    }
+    .box img:hover{
+        height: 300px;
+    }
+ }
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+     .logo1 {
+        width: 100px;
+    }
+    .lock{
+
+        margin-right: -20px;
+        width: 40px;
+    }
+    
+    .login{
+        justify-content: end;
+        gap: 10px;
+        align-items: normal;
+    }
+    .mini{
+        display: block;
+    }
+    #delete{
+        display: none;
+    }
+    .box{
+        width: 90%;
+    }
+    .box img{
+        height: 190px;
+    }
+    .box img:hover{
+        height: 190px;
+    }
+     .colum1{
+        margin-top: 10px;
+    }
+    .row2{
+        display: block;
+    }
+    .footer-2 hr{
+        display: block;
+    }
+    .footer-2 img{
+        margin-left: 10px;
+    }
+    #hr{
+        color: rgb(133,133,133);
+        height: 1.5px;
+        width: 80%;
+        margin: 15px auto;
+    }
+ }
+
+ 
+
+
+
+ 
+

@@ -1,0 +1,52 @@
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) { 
+
+ }
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) { 
+  .nav{
+    justify-content: center;
+  }
+
+    
+  }
+ 
+ 
+  /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
+     .option{
+        width: 100%;
+        justify-content: center;
+    }
+ }
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) { 
+    
+ }
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .buy{
+display: none;  
+  }
+    .logo{
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+
+    }
+    .login{
+        gap: 8px;
+    }
+    .rese{
+       width: 80px;
+    }
+
+ }
+
+ 
+
+
+
+ 
+
